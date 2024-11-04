@@ -1,28 +1,44 @@
 package org.example;
 
-
 public class Product {
-    public static void main(String[] args) {
-        Product user = new Product();
+    String productId;
+    String name;
+    String price;
+    String quantity;
 
-        user.setProductId(a);
-        user.setname(b);
-        user.setprice(v);
-        user.setquantity(d);
+    public String getProductId() {
+        return productId;
+    }
 
-        String ProductId = user.getProdcutId();
-        String Name = user.getname();
-        String price = user.getprice();
-        String quantity = user.getquantity();
+    public void setProductId(String productId) {
+        this.productId = productId;
+    }
 
+    public String getName() {
+        return name;
+    }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 
+    public String getPrice() {
+        return price;
+    }
 
+    public void setPrice(String price) {
+        this.price = price;
+    }
 
+    public String getQuantity() {
+        return quantity;
+    }
 
-
-
-
+    public void setQuantity(String quantity) {
+        this.quantity = quantity;
+    }
 
     }
-}
+
+
+
